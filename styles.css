@@ -2,6 +2,7 @@
 
 :root {
 	--primary-background: #f4544c;
+	/* --primary-background: #300705; */
 }
 
 *{
@@ -11,8 +12,26 @@
 body {
 	/* font-family: 'Special Elite', cursive; */
 	color: #3f3f5a;
-	/* background-color: var(--primary-background); */
+	color: #fff;
+	background-color: var(--primary-background);
 	padding: 5%;
+}
+
+.section {
+	margin: 3% 6%;
+	text-align: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.txt-center {
+	text-align: center;
+	justify-items: center;
+}
+
+.font-xl {
+	font-weight: 600;
+	font-size: 200%;
 }
 
 .card-wrapper {
