@@ -11,9 +11,6 @@
 }
 
 body {
-	/* font-family: 'Special Elite', cursive; */
-	/* font-family: 'Anton', cursive; */
-	/* font-family: cursive; */
 	font-family: 'Verdana';
 	color: #3f3f5a;
 	color: #fff;
@@ -26,7 +23,6 @@ body {
 	text-align: center;
 	justify-content: center;
 	justify-items: center;
-	/* font-family: 'Anton'; */
 }
 
 .txt-center {
@@ -43,6 +39,12 @@ body {
 	font-weight: 600;
 	font-size: 150%;
 }
+
+.font-l {
+	font-weight: 600;
+	font-size: 100%;
+}
+
 
 .font-cursive {
 	font-family: 'Anton', cursive;
@@ -68,6 +70,12 @@ body {
 	/* font-weight: 400; */
 }
 
+.author {
+	font-style: italic;
+	color: rgb(187, 184, 184);
+	font-size: small;
+	font-size: smaller;
+}
 
 
 
