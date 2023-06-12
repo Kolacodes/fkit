@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+  /* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+  @import url('https://fonts.cdnfonts.com/css/verdana');
 
 :root {
 	--primary-background: #f4544c;
@@ -11,6 +13,8 @@
 
 body {
 	/* font-family: 'Special Elite', cursive; */
+	font-family: 'Anton', cursive;
+	/* font-family: 'Verdana', sans-serif; */
 	color: #3f3f5a;
 	color: #fff;
 	background-color: var(--primary-background);
@@ -22,6 +26,7 @@ body {
 	text-align: center;
 	justify-content: center;
 	justify-items: center;
+	/* font-family: 'Anton'; */
 }
 
 .txt-center {
@@ -39,6 +44,10 @@ body {
 	font-size: 150%;
 }
 
+.font-cursive {
+	font-family: 'Anton', cursive;
+}
+
 .card-wrapper {
 		display: flex;
 		justify-content: center;
@@ -53,10 +62,10 @@ body {
 	border-radius: 4%;
 	align-items: center;
 	text-align: center;
-	padding: 12px 14px ;
+	/* padding: 8px 14px ; */
 	width: 300px;
-	font-weight: 800;
-
+	/* font-weight: 800; */
+	/* font-weight: 400; */
 }
 
 
