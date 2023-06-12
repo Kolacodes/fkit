@@ -29,9 +29,14 @@ body {
 	justify-items: center;
 }
 
+.sec-color {
+	color: rgb(209, 103, 16);
+	color: rgb(212, 212, 120);
+}
+
 .font-xl {
 	font-weight: 600;
-	font-size: 200%;
+	font-size: 150%;
 }
 
 .card-wrapper {
