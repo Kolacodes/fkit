@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+:root {
+	--primary-background: #f4544c;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	/* font-family: 'Special Elite', cursive; */
+	color: #3f3f5a;
+	background-color: var(--primary-background);
+	padding: 5%;
+}
+
+.card-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* height: 100vh; Adjust the height based on your requirements */
+	  }
+
+.card {
+	background-color: #fff;
+	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
+	/* color: #fff; */
+	border-radius: 4%;
+	align-items: center;
+	text-align: center;
+	padding: 12px 14px ;
+	width: 300px;
+
+}
+
+
+
+
