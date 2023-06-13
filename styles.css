@@ -67,6 +67,7 @@ body {
 .card {
 	background-color: #f4544c;
 	background-color: rgb(212, 212, 120);
+	background-color: rgb(245, 245, 243);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
 	color: #faebeb;
@@ -91,8 +92,10 @@ body {
 .author {
 	font-style: italic;
 	color: rgb(252, 251, 251);
+	/* color: rgb(212, 212, 120); */
 	font-size: small;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	text-shadow: 2px 2px 4px black;
 	font-size: smaller;
 }
 
