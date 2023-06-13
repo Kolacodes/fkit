@@ -1,5 +1,15 @@
 "Raleway",Sans-serif used in Dolapo's salespage...
 
+.elementor-kit-10 {
+    --e-global-color-secondary: #284354;
+
+    --e-global-color-text: #7A7A7A;
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-weight: 500;
+}
+
 Use the "Georgia" font for headings, and "Verdana" for text:
 
 
