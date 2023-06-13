@@ -22,3 +22,5 @@ Ant
 -- Amiri
 Pulling from classic Arabic fonts, 
 Amiri’s purpose is for books and longer paragraphs.
+
+https://bennettfeely.com/clippy/
