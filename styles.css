@@ -81,6 +81,7 @@ body {
 	text-shadow: 2px 2px 4px black;
 	text-shadow: 2px 2px 4px white;
 	color: rgb(49, 49, 49);
+	color: var(--primary-background);
 	font-weight: bold;
 }
 
