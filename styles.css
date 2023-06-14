@@ -28,6 +28,21 @@ body {
 	font-weight: bold;
 }
 
+img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+
+	height: auto;
+	max-width: 100%;
+	display: block; /* makes it stick */
+	/* vertical-align: middle; */
+	/* overflow-clip-margin: content-box; */
+	/* overflow: clip; */
+
+}
+
+
 
 .section {
 	/* margin: 3% 6% !important ; */
@@ -98,6 +113,7 @@ body {
 	color: #faebeb;
 	color: #fdf8f8;
 	border-radius: 4%;
+	border-radius: 4px;
 	align-items: center;
 	text-align: center;
 	padding: 30px 14px ;
