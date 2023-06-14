@@ -1,3 +1,13 @@
+
+img {
+	/* border: 1px solid #ddd; 
+	/* border-radius: 4px; makes the border round
+	   padding: 5px; 
+}
+
+
+
+
 "Raleway",Sans-serif used in Dolapo's salespage...
 
 .elementor-kit-10 {

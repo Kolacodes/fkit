@@ -28,14 +28,19 @@ body {
 	font-weight: bold;
 }
 
-img {
-	/* border: 1px solid #ddd; */
-	/* border-radius: 4px; */
-	/* padding: 5px; */
+.mt-sm {
+	margin-top: 40px !important;
+}
 
+img {
+	border: 3px dotted #ddd;
+	border: 5px solid var(--secondary-bckground);
+	/* border-radius: 4px; */
+	box-shadow: 2px 2px 4px black;
+	padding: 5px;
 	height: auto;
 	max-width: 100%;
-	display: block; /* makes it stick */
+	/* display: block; makes it stick */
 	/* vertical-align: middle; */
 	/* overflow-clip-margin: content-box; */
 	/* overflow: clip; */
