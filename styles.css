@@ -21,6 +21,14 @@ body {
 	color: var(--text-color-primary);
 }
 
+/* Utilities classes */
+
+
+.bold {
+	font-weight: bold;
+}
+
+
 .section {
 	/* margin: 3% 6% !important ; */
 	text-align: center;
