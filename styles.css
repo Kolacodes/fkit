@@ -33,6 +33,11 @@ body {
 	margin-top: 40px !important;
 }
 
+
+.mb-sm {
+	margin-bottom: 40px !important;
+}
+
 img {
 	border: 3px dotted #ddd;
 	border: 5px solid rgb(240, 238, 238);
