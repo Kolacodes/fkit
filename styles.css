@@ -6,6 +6,7 @@
     --text-color-primary: #7A7A7A;
     --text-color-primary: #284354;
     --text-color-primary: black;
+	--secondary-text: rgb(212, 212, 120);
 	
 }
 
@@ -34,7 +35,8 @@ body {
 
 img {
 	border: 3px dotted #ddd;
-	border: 5px solid var(--secondary-bckground);
+	border: 5px solid rgb(240, 238, 238);
+	border: 5px solid rgb(248, 247, 247);
 	/* border-radius: 4px; */
 	box-shadow: 2px 2px 4px black;
 	padding: 5px;
