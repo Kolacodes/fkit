@@ -42,7 +42,7 @@ img {
 	border: 3px dotted #ddd;
 	border: 5px solid rgb(240, 238, 238);
 	border: 5px solid rgb(235, 232, 232);
-	border-radius: 4px;
+	/* border-radius: 4px; */
 	box-shadow: 2px 2px 4px black;
 	/* padding: 2px; */
 	height: auto;
