@@ -7,8 +7,12 @@
     --text-color-primary: #284354;
     --text-color-primary: black;
 	--secondary-text: rgb(212, 212, 120);
-	
+	/* --primary-background: linear-gradient(296.91deg, #3f3547 3.73%, #7D81A4 97.68%);  */
 }
+/* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
+/* background: linear-gradient(296.91deg, #3f3547 3.73%, #7D81A4 97.68%);  */
+
+/* --primary-background: rgb(182, 62, 62); */
 
 *{
 	box-sizing: border-box;
@@ -88,6 +92,7 @@ video {
 
 .intro-section {
 	background-color: var(--primary-background);
+/* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
 	color: #fff;
 }
 
