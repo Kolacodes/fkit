@@ -145,14 +145,19 @@ video {
 	width: 300px;
 }
 
+audio::-webkit-media-controls-panel {
+	background-color: rgb(212, 212, 120);
+}
+
 .shadow-text {
 	/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
 	text-shadow: 2px 2px 4px black;
-	text-shadow: 2px 2px 4px white;
+	/* text-shadow: 2px 2px 4px white; */
 	/* text-shadow: 2px 2px 4px black; */
 	color: rgb(49, 49, 49);
 	color: var(--primary-background);
 	color: rgb(92, 24, 24);
+	color: #fff;
 	font-weight: bold;
 }
 
@@ -164,6 +169,10 @@ video {
 	font-size: small;
 	/* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); */
 	font-size: smaller;
+}
+
+.gray {
+	color: gray;
 }
 
 .shares-section {
