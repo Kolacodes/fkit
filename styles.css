@@ -175,7 +175,9 @@ audio::-webkit-media-controls-panel {
 	color: gray;
 }
 
-
+.stroke-black {
+	-webkit-text-stroke: 0.2px black;
+}
 .shadow {
 	text-shadow: 2px 2px 4px black;
 	/* text-shadow: 2px 2px 4px white; */
