@@ -130,12 +130,8 @@ video {
 	  }
 
 .card {
-	border: 3px solid rgb(235, 232, 232);
 	border: 3px solid rgb(146, 146, 85);
-	border: 3px solid grey;
-	background-color: #f4544c;
 	background-color: rgb(212, 212, 120);
-	/* background-color: rgb(245, 245, 243); */
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
 	color: #faebeb;
