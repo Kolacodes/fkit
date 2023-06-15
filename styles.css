@@ -175,9 +175,26 @@ audio::-webkit-media-controls-panel {
 	color: gray;
 }
 
+
+.shadow {
+	text-shadow: 2px 2px 4px black;
+	/* text-shadow: 2px 2px 4px white; */
+}
+
+
+.shadow-light {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, .4)
+	/* text-shadow: 2px 2px 4px white; */
+}
+
+.italic {
+	font-style: italic;
+}
+
+
 .white-dark {
 	color: #f0efef;
-	color: #d6d5d5;
+	/* color: #d6d5d5; */
 }
 
 .shares-section {
