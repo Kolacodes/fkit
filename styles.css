@@ -89,9 +89,16 @@ video {
 .intro-section {
 	background-color: var(--primary-background);
 	color: #fff;
-	/* background-image: url('images/street.jpeg'); */
-	/* background-repeat: no-repeat; */
-	/* opacity: 0.5; */
+}
+
+
+.audio-2-section {
+	/* color: var(--text-color-primary); */
+}
+
+
+.jawwaad-section {
+	
 }
 
 .txt-center {
@@ -169,6 +176,10 @@ video {
 
 audio::-webkit-media-controls-panel {
 	background-color: rgb(212, 212, 120);
+}
+
+.audio-two::-webkit-media-controls-panel {
+	background-color: var(--primary-background)
 }
 
 .shadow-text {
