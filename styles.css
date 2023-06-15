@@ -97,11 +97,6 @@ video {
 }
 
 
-.audio-2-section {
-	/* color: var(--text-color-primary); */
-}
-
-
 .jawwaad-section {
 	
 }
@@ -171,13 +166,6 @@ video {
 	/* height: auto; */
 	/* max-width: 100%; */
 }
-
-.audio-2 {
-	justify-items: center;
-	justify-content: center;
-	margin-right: 20%;
-}
-
 
 audio::-webkit-media-controls-panel {
 	background-color: rgb(212, 212, 120);
@@ -249,5 +237,16 @@ audio::-webkit-media-controls-panel {
 	margin-bottom: 20px;
 	text-align: left;
 	line-height: 2rem;
+}
+
+
+.footer-section {
+	background-color: var(--secondary-text);
+/* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
+	color: #fff;
+}
+
+.text-sm {
+	font-size: 14px;
 }
 
