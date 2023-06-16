@@ -109,8 +109,15 @@ video {
 
 .intro-section {
 	background-color: var(--primary-background);
+	/* clip-path: circle(50% at 50% 50%); */
 /* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
 	color: #fff;
+}
+
+.curve-section {
+	clip-path: polygon(49% 50%, 100% 50%, 48% 61%, 0% 50%);
+	clip-path: polygon(49% 49%, 100% 50%, 47% 94%, 0 49%);
+	clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 59% 79%, 20% 100%, 0% 80%, 0 0);
 }
 
 
