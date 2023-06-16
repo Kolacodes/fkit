@@ -2,11 +2,16 @@
 	--primary-background: #f4544c;
 	--primary-background: BROWN;
 	--primary-background: rgb(182, 62, 62);
+	--primary-background: #f96060; /*from jamaal */
+	/* --primary-background: white; */
 	--secondary-bckground: rgb(255, 240, 240);
     --text-color-primary: #7A7A7A;
     --text-color-primary: #284354;
     --text-color-primary: black;
 	--secondary-text: rgb(212, 212, 120);
+	--secondary-text: #D7B75F;
+	--secondary-text: #f96060;
+	--secondary-text: white;
 	/* --primary-background: linear-gradient(296.91deg, #3f3547 3.73%, #7D81A4 97.68%);  */
 }
 /* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
@@ -108,6 +113,9 @@ video {
 
 .sec-color {
 	color: rgb(212, 212, 120);
+	color: var(--primary-background);
+	color: var(--secondary-text);
+	/* color: brown; */
 }
 
 .red-bg-color {
@@ -137,8 +145,8 @@ video {
 	  }
 
 .card {
-	border: 3px solid rgb(146, 146, 85);
-	background-color: rgb(212, 212, 120);
+	/* border: 3px solid rgb(146, 146, 85); */
+	background-color: var(--secondary-text);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
 	color: #faebeb;
@@ -154,6 +162,7 @@ video {
 .card-2 {
 	/* border: 3px solid rgb(146, 146, 85); */
 	background-color: rgb(212, 212, 120);
+	background-color: var(--primary-background);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
 	color: #faebeb;
@@ -168,7 +177,7 @@ video {
 }
 
 audio::-webkit-media-controls-panel {
-	background-color: rgb(212, 212, 120);
+	background-color: var(--secondary-text);
 }
 
 .audio-two::-webkit-media-controls-panel {
@@ -250,4 +259,124 @@ audio::-webkit-media-controls-panel {
 .text-sm {
 	font-size: 14px;
 }
+
+/* BTN 01 **********************************************/
+
+
+
+
+
+
+/* CSS */
+.button-82-pushable {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-82-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.button-82-edge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.button-82-front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+	/* color: rgb(212, 212, 120); */
+  background: hsl(345deg 100% 47%);
+  background: rgb(182, 62, 62);
+  background: var(--primary-background);
+
+  will-change: transform;
+  transform: translateY(-4px);
+  transition:
+    transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+@media (min-width: 768px) {
+  .button-82-front {
+    font-size: 1.25rem;
+    padding: 12px 42px;
+  }
+}
+
+.button-82-pushable:hover {
+  filter: brightness(110%);
+  -webkit-filter: brightness(110%);
+}
+
+.button-82-pushable:hover .button-82-front {
+  transform: translateY(-6px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:hover .button-82-shadow {
+  transform: translateY(4px);
+  transition:
+    transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.button-82-pushable:active .button-82-shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+}
+
+.button-82-pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+
+
+
+
+
 
