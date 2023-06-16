@@ -4,6 +4,7 @@
 	--primary-background: rgb(182, 62, 62);
 	--primary-background: #f96060; /*from jamaal */
 	--primary-background: #f3534c; /* not from jamaal */
+
 	/* --primary-background: white; */
 	--secondary-bckground: rgb(255, 240, 240);
     --text-color-primary: #7A7A7A;
@@ -283,12 +284,20 @@ audio::-webkit-media-controls-panel {
 	color: var(--primary-background);
 }
 
+.bg-gradient {
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,83,76,1) 100%);
+}
+
 .p-text-block {
 	font-size: 1.2rem;
 	font-weight: 500;
 	margin-bottom: 20px;
 	text-align: left;
 	line-height: 2rem;
+}
+
+.light-brown {
+	color: var(--primary-light-brown);
 }
 
 
@@ -367,10 +376,12 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,83,76,1) 100%);
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
+
 	/* color: rgb(212, 212, 120); */
   background: hsl(345deg 100% 47%);
   background: rgb(182, 62, 62);
   background: var(--primary-background);
+  /* background: var(--primary-brown); */
 
   will-change: transform;
   transform: translateY(-4px);
