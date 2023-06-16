@@ -293,10 +293,14 @@ audio::-webkit-media-controls-panel {
 
 
 .footer-section {
-	background-color: var(--primary-light-brown);
+	/* background-color: var(--primary-background); */
 /* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
-	color: #fff;
-	color: #7A7A7A;
+	color: #cecece;
+	color: var(--primary-light-brown);
+
+	/* color: #7A7A7A; */
+	background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,83,76,1) 100%);
 }
 
 .text-sm {
