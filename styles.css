@@ -369,6 +369,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,83,76,1) 100%);
   );
 }
 
+.bg-brown {
+	background-color: var(--primary-light-brown);
+}
+
 .button-82-front {
   display: block;
   position: relative;
