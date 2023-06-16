@@ -13,6 +13,8 @@
 	--secondary-text: #D7B75F;
 	--secondary-text: #f96060;
 	--secondary-text: white;
+	--primary-brown: #a96331;
+	--primary-light-brown: #e49d61;
 	/* --primary-background: linear-gradient(296.91deg, #3f3547 3.73%, #7D81A4 97.68%);  */
 }
 /* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
@@ -251,7 +253,7 @@ audio::-webkit-media-controls-panel {
 
 
 .footer-section {
-	background-color: var(--secondary-text);
+	background-color: var(--primary-light-brown);
 /* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
 	color: #fff;
 	color: #7A7A7A;
