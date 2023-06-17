@@ -41,8 +41,15 @@ body {
 	color: var(--primary-background);
 }
 
+
 .bg-white {
 	background-color: white !important;
+}
+
+
+.bg-grey {
+	background-color: white !important;
+	background-color: rgb(238, 238, 238) !important;
 }
 
 .text-color-pri {
