@@ -196,7 +196,7 @@ video {
 	background-color: rgb(212, 212, 120);
 	background-color: var(--primary-background);
 	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.3);
-	box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 6px 4px rgba(0, 0, 0, 0.6);
 	color: #faebeb;
 	color: #fdf8f8;
 	/* border-radius: 4px; */
