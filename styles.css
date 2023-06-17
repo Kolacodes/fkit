@@ -50,7 +50,7 @@ body {
 }
 	
 .bold {
-	font-weight: bold;
+	font-weight: bold !important;
 }
 
 .mt-sm {
@@ -303,6 +303,15 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,83,76,1) 100%);
 	text-align: left;
 	line-height: 2rem;
 }
+
+.color-brown-light {
+	color: var(--primary-light-brown);
+}
+
+.luxury-text {
+
+}
+
 
 .light-brown {
 	color: var(--primary-light-brown);
