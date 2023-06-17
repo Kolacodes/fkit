@@ -279,6 +279,13 @@ audio::-webkit-media-controls-panel {
 	/* color: #d6d5d5; */
 }
 
+
+.white-darker {
+	color: #d1d0d0;
+	color: var(--primary-background);
+	color: var(--primary-light-brown);
+}
+
 .shares-section {
 	background-color: var(--secondary-bckground);
 	background-color: rgb(245, 243, 243);
