@@ -458,7 +458,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(243,83,76,1) 100%);
 /* background: linear-gradient(296.91deg, rgb(63, 53, 71) 3.73%, rgb(125, 129, 164) 97.68%); */
 	color: #cecece;
 	color: var(--primary-light-brown);
-	color: #c48857;
+	/* color: #c48857; */
 
 	/* color: #7A7A7A; */
 	background: rgb(0,0,0);
